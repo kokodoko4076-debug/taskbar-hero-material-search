@@ -84,15 +84,34 @@ div.className =
 
 div.innerHTML =
   "<div class='item-header'>" +
-    "<img class='item-icon' src='" + item.icon + "'>" +
-    "<h3>" + item.name + "</h3>" +
-  "</div>" +
- "<p><span class='rarity-badge " +
-item.rarityClass +
-"'>" +
-item.rarity +
-"</span></p>" +
-  "<p>" + (item[currentType] || "") + "</p>";
+
+    "<img class='item-icon' src='" +
+    item.icon +
+    "'>" +
+
+    "<div class='title-area'>" +
+
+      "<div class='title-row'>" +
+
+        "<h3>" +
+        item.name +
+        "</h3>" +
+
+        "<span class='rarity-badge " +
+        item.rarityClass +
+        "'>" +
+        item.rarity +
+        "</span>" +
+
+      "</div>" +
+
+      "<p class='item-effect'>" +
+      (item[currentType] || "") +
+      "</p>" +
+
+    "</div>" +
+
+  "</div>";
 
 results.appendChild(div);
 
