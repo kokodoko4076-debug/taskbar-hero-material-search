@@ -69,45 +69,42 @@ margin-top:15px;
 }
 
 .effect-btn{
-background:#334155;
-color:white;
-border:none;
-border-radius:8px;
-padding:12px;
-font-size:15px;
-cursor:pointer;
+    background:#475569;
+    border:1px solid #64748b;
 }
 
 .effect-btn.active{
-background:#ea580c;
+    background:#f59e0b;
+    color:black;
+    font-weight:bold;
 }
 
 .card.common{
-    border-left:6px solid #808080;
+    border-left:12px solid #808080;
 }
 
 .card.uncommon{
-    border-left:6px solid #22c55e;
+    border-left:12px solid #22c55e;
 }
 
 .card.rare{
-    border-left:6px solid #3b82f6;
+    border-left:12px solid #3b82f6;
 }
 
 .card.legendary{
-    border-left:6px solid #d4af37;
+    border-left:12px solid #d4af37;
 }
 
 .card.immortal{
-    border-left:6px solid #ef4444;
+    border-left:12px solid #ef4444;
 }
 
 .card.arcana{
-    border-left:6px solid #a855f7;
+    border-left:12px solid #a855f7;
 }
 
 .card.beyond{
-    border-left:6px solid #db2777;
+    border-left:12px solid #db2777;
 }
 
 .item-header{
@@ -156,4 +153,9 @@ background:#ea580c;
 
 .rarity-badge.beyond{
     background:#db2777;
+}
+.card h3{
+    margin:0;
+    font-size:20px;
+    font-weight:700;
 }
