@@ -315,3 +315,6 @@ font-weight:bold;
     padding:16px;
     border-radius:12px;
 }
+.result-table th{
+    background:#111827;
+}
