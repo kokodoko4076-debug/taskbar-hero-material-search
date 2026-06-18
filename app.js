@@ -14,6 +14,12 @@ const effectSelect = document.getElementById("effectSelect");
 const results = document.getElementById("results");
 const tabs = document.querySelectorAll(".tab");
 
+const ornamentCheck =
+document.getElementById("ornamentCheck");
+
+const engravingCheck =
+document.getElementById("engravingCheck");
+
 function render() {
 
 console.log(materials);
@@ -34,7 +40,20 @@ const matchEffect =
   effect === "" ||
   value.includes(effect);
 
-return matchName && matchEffect;
+  const matchType =
+(
+  ornamentCheck.checked &&
+  item.type === "ornament"
+)
+||
+(
+  engravingCheck.checked &&
+  item.type === "engraving"
+);
+
+return matchName &&
+       matchEffect &&
+       matchType;
 
 
 });
@@ -82,3 +101,13 @@ render();
 
 searchInput.addEventListener("input", render);
 effectSelect.addEventListener("change", render);
+
+ornamentCheck.addEventListener(
+  "change",
+  render
+);
+
+engravingCheck.addEventListener(
+  "change",
+  render
+);
