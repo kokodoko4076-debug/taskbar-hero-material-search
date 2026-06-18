@@ -47,4 +47,13 @@
 "armor": "クールダウン短縮 2.5〜4.0%",
 "accessory": "最大HP 30〜60"
 }
+{
+  "name": "エメラルド",
+  "type": "ornament",
+  "rarity": "レア",
+  "weapon": "攻撃速度 7〜9%",
+  "armor": "回避率 15〜20%",
+  "accessory": "移動速度 20〜25%"
+}
 ]
+  
