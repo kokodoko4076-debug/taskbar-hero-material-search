@@ -488,5 +488,85 @@
 "weapon":"クリティカルダメージ 50〜60%",
 "armor":"回避率 9.0〜11.0%",
 "accessory":"クリティカル率 35〜40%"
+},
+ {
+"name":"トワイライトアメジスト",
+"icon":"images/twilight_amethyst.jpg",
+"type":"ornament",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"物理ダメージ 100〜130%",
+"armor":"最大HP 180〜210",
+"accessory":"クールダウン短縮 8.5〜10.0%"
+},
+{
+"name":"ファントムエメラルド",
+"icon":"images/phantom_emerald.jpg",
+"type":"ornament",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"攻撃速度 15〜17%",
+"armor":"カオス耐性 35〜40%",
+"accessory":"移動速度 40〜45%"
+},
+{
+"name":"アストラルダイヤ",
+"icon":"images/astral_diamond.jpg",
+"type":"ornament",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"攻撃力 +50〜100",
+"armor":"全属性耐性 17〜19%",
+"accessory":"効果範囲 17〜20%"
+},
+{
+"name":"虚空のオパール",
+"icon":"images/void_opal.jpg",
+"type":"ornament",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"クールダウン短縮 11.5〜13.0%",
+"armor":"最大HP 25〜30%",
+"accessory":"最大HP 180〜210"
+},
+ {
+"name":"ヴォイドの精髄",
+"icon":"images/void_ichor.jpg",
+"type":"engraving",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"クリティカル率 45〜50%",
+"armor":"ダメージ軽減 8.5〜10.0%",
+"accessory":"移動速度 40〜45%"
+},
+{
+"name":"タイタンマロウ",
+"icon":"images/titan_marrow.jpg",
+"type":"engraving",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"攻撃力 50〜70",
+"armor":"雷耐性 35〜40%",
+"accessory":"毎秒HP回復 5.0〜7.0"
+},
+{
+"name":"クラーケンインク",
+"icon":"images/kraken_ink.jpg",
+"type":"engraving",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"冷気ダメージ 100〜130%",
+"armor":"回避率 11.0〜13.0%",
+"accessory":"命中毎HP回復 7〜9"
+},
+{
+"name":"レイスの精髄",
+"icon":"images/wraith_essence.jpg",
+"type":"engraving",
+"rarity":"ビヨンド",
+"rarityClass":"beyond",
+"weapon":"クリティカルダメージ 60〜80%",
+"armor":"ブロック率 11.0〜13.0%",
+"accessory":"クリティカルダメージ 50〜60%"
 }
 ]
