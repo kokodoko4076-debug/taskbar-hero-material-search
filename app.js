@@ -95,7 +95,7 @@ item.rarity +
 
 "<td>" +
 (item.type === "engraving"
-? "刻印"
+? "彫刻"
 : "装飾") +
 "</td>" +
 
@@ -105,7 +105,7 @@ currentType === "weapon"
 ? "武器"
 : currentType === "armor"
 ? "防具"
-: "アクセ"
+: "アクセサリー"
 ) +
 "</td>" +
 
