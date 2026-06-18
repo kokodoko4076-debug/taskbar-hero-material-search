@@ -33,7 +33,7 @@ const matchEffect =
   value.includes(effect);
 
 return matchName && matchEffect;
-```
+
 
 });
 
@@ -62,7 +62,7 @@ tabs.forEach(tab => {
 
 tab.addEventListener("click", () => {
 
-```
+
 tabs.forEach(t =>
   t.classList.remove("active")
 );
@@ -72,7 +72,7 @@ tab.classList.add("active");
 currentType = tab.dataset.type;
 
 render();
-```
+
 
 });
 
