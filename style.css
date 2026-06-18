@@ -76,9 +76,8 @@ margin-top:15px;
 }
 
 .effect-btn{
-    border-radius:8px;
-    padding:10px;
-    font-weight:bold;
+    padding:8px;
+    min-height:40px;
 }
 
 .effect-btn.active{
@@ -297,9 +296,8 @@ font-weight:bold;
 }
 .effect-categories{
     display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:24px;
-    margin-top:20px;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
 }
 .effect-category{
     background:#1e293b;
