@@ -84,12 +84,13 @@ margin-top:15px;
 
 .effect-btn:hover{
     background:#475569;
+    transform:translateY(-1px);
 }
 
 .effect-btn.active{
-    background:#f59e0b;
-    color:black;
-    font-weight:bold;
+    border:1px solid #f59e0b;
+    background:#3b2f1c;
+    color:#f59e0b;
 }
 
 .card.common{
@@ -289,26 +290,15 @@ font-weight:bold;
     margin-bottom:20px;
 }
 
-.effect-category{
-    background:#1e293b;
-    padding:15px;
-    border-radius:12px;
-}
-
 .effect-category h3{
-    margin-top:0;
     color:#94a3b8;
     font-size:14px;
+    margin-bottom:12px;
 }
 .effect-categories{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:20px;
-}
-.effect-category{
-    background:#1e293b;
-    padding:16px;
-    border-radius:12px;
+    gap:16px;
 }
 .effect-category{
     background:#1e293b;
