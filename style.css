@@ -121,3 +121,11 @@ background:#ea580c;
     height:40px;
     object-fit:contain;
 }
+.rarity-badge{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+}
