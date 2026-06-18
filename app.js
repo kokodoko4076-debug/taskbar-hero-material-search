@@ -33,56 +33,51 @@ function render() {
 const keyword = searchInput.value.toLowerCase();
 const effect = effectSelect.value;
 
-
 const filtered = materials.filter(item => {
+const matchName = item.name.toLowerCase().includes(keyword);
 
-    const matchName =
-        item.name.toLowerCase().includes(keyword);
+```
+const matchEffect =
+  effect === "" ||
+  item[currentType].includes(effect);
 
-    const matchEffect =
-        effect === "" ||
-        item[currentType].includes(effect);
+return matchName && matchEffect;
+```
 
-    return matchName && matchEffect;
 });
 
 results.innerHTML = "";
 
 filtered.forEach(item => {
+const div = document.createElement("div");
 
-    const div = document.createElement("div");
+```
+div.className = "card";
 
-    div.className = "card";
+div.innerHTML =
+  "<h3>" + item.name + "</h3>" +
+  "<p>レアリティ: " + item.rarity + "</p>" +
+  "<p>" + item[currentType] + "</p>";
 
-    div.innerHTML = `
-        <h3>${item.name}</h3>
-        <p>レアリティ: ${item.rarity}</p>
-        <p>${item[currentType]}</p>
-    `;
+results.appendChild(div);
+```
 
-    results.appendChild(div);
 });
-
-
 }
 
 tabs.forEach(tab => {
-
-
 tab.addEventListener("click", () => {
+tabs.forEach(t => t.classList.remove("active"));
 
-    tabs.forEach(t =>
-        t.classList.remove("active")
-    );
+```
+tab.classList.add("active");
 
-    tab.classList.add("active");
+currentType = tab.dataset.type;
 
-    currentType = tab.dataset.type;
+render();
+```
 
-    render();
 });
-
-
 });
 
 searchInput.addEventListener("input", render);
