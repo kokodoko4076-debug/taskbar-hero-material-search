@@ -136,26 +136,6 @@ tab.classList.add("active");
 
 currentType = tab.dataset.type;
 
-    const resetBtn =
-document.getElementById("resetBtn");
-
-resetBtn.addEventListener(
-  "click",
-  () => {
-
-    searchInput.value = "";
-
-    selectedEffect = "";
-
-    ornamentCheck.checked = true;
-    engravingCheck.checked = true;
-
-    effectButtons.forEach(btn =>
-      btn.classList.remove("active")
-    );
-
-    effectButtons[0].classList.add("active");
-
 render();
 
 
@@ -192,4 +172,27 @@ ornamentCheck.addEventListener(
 engravingCheck.addEventListener(
   "change",
   render
+);
+const resetBtn =
+document.getElementById("resetBtn");
+
+resetBtn.addEventListener(
+  "click",
+  () => {
+
+    searchInput.value = "";
+
+    selectedEffect = "";
+
+    ornamentCheck.checked = true;
+    engravingCheck.checked = true;
+
+    effectButtons.forEach(btn =>
+      btn.classList.remove("active")
+    );
+
+    effectButtons[0].classList.add("active");
+
+    render();
+  }
 );
