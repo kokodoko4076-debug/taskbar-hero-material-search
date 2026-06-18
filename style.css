@@ -129,3 +129,31 @@ background:#ea580c;
     font-weight:bold;
     color:white;
 }
+.rarity-badge.common{
+    background:#808080;
+}
+
+.rarity-badge.uncommon{
+    background:#22c55e;
+}
+
+.rarity-badge.rare{
+    background:#3b82f6;
+}
+
+.rarity-badge.legendary{
+    background:#d4af37;
+    color:black;
+}
+
+.rarity-badge.immortal{
+    background:#ef4444;
+}
+
+.rarity-badge.arcana{
+    background:#a855f7;
+}
+
+.rarity-badge.beyond{
+    background:#db2777;
+}
