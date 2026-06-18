@@ -1,28 +1,22 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taskbar Hero 素材検索</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<div class="tabs">
+    <button class="tab active" data-type="weapon">武器</button>
+    <button class="tab" data-type="armor">防具</button>
+    <button class="tab" data-type="accessory">アクセ</button>
+</div>
 
-    <header>
-        <h1>Taskbar Hero 素材検索</h1>
-    </header>
+<input
+type="text"
+id="searchInput"
+placeholder="素材名検索..."
 
-    <main>
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="素材名を検索..."
-        >
+>
 
-        <div id="results"></div>
-    </main>
+<select id="effectSelect">
+    <option value="">効果を選択</option>
+    <option value="攻撃速度">攻撃速度</option>
+    <option value="攻撃力">攻撃力</option>
+    <option value="クールダウン">クールダウン</option>
+    <option value="最大HP">最大HP</option>
+</select>
 
-    <script src="app.js"></script>
-
-</body>
-</html>
+<div id="results"></div>
