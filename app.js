@@ -9,6 +9,7 @@ fetch("materials.json")
 
     render();
 });
+
 let currentType = "weapon";
 
 const searchInput = document.getElementById("searchInput");
