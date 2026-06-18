@@ -21,7 +21,7 @@ const effect = effectSelect.value;
 
 const filtered = materials.filter(item => {
 
-```
+
 const matchName =
   item.name.toLowerCase().includes(keyword);
 
@@ -41,7 +41,7 @@ results.innerHTML = "";
 
 filtered.forEach(item => {
 
-```
+
 const div = document.createElement("div");
 
 div.className = "card";
@@ -52,7 +52,7 @@ div.innerHTML =
   "<p>" + (item[currentType] || "") + "</p>";
 
 results.appendChild(div);
-```
+
 
 });
 
