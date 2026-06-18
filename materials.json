@@ -1,73 +1,92 @@
 [
-{
-"name": "スライムゼリー",
-"icon": "images/slime_jelly.jpg",
-"type": "engraving",
-"rarity": "コモン",
-"rarityClass": "common",
-"weapon": "攻撃速度 5〜6%",
-"armor": "最大HP 10〜30",
-"accessory": "クリティカル率 10〜15%"
+ {
+"name":"スモールルビー",
+"icon":"images/small_ruby.jpg",
+"type":"ornament",
+"rarity":"コモン",
+"rarityClass":"common",
+"weapon":"火炎ダメージ 20〜30%",
+"armor":"火炎耐性 5〜10%",
+"accessory":"攻撃力 +1〜2"
 },
 {
-"name": "スケルトンの骨",
-"icon": "images/skeleton_bone.jpg",
-"type": "engraving",
-"rarity": "コモン",
-"rarityClass": "common",
-"weapon": "クリティカル率 15〜20%",
-"armor": "防御力 25〜50",
-"accessory": "命中率回復量 +1"
+"name":"マイナーサファイア",
+"icon":"images/minor_sapphire.jpg",
+"type":"ornament",
+"rarity":"コモン",
+"rarityClass":"common",
+"weapon":"冷気ダメージ 20〜30%",
+"armor":"防御 +25〜50",
+"accessory":"クリティカル率 10〜15%"
 },
 {
-"name": "ゴブリンの皮",
-"icon": "images/goblin_skin.jpg",
-"type": "engraving",
-"rarity": "コモン",
-"rarityClass": "common",
-"weapon": "火炎ダメージ 20〜30%",
-"armor": "火炎耐性 5〜10%",
-"accessory": "攻撃速度 4〜5%"
+"name":"マイナートパーズ",
+"icon":"images/minor_topaz.jpg",
+"type":"ornament",
+"rarity":"コモン",
+"rarityClass":"common",
+"weapon":"雷ダメージ 20〜30%",
+"armor":"防御力 10〜15%",
+"accessory":"詠唱速度 8〜10%"
 },
 {
-"name": "癒しの葉",
-"icon": "images/healing_leaf.jpg",
-"type": "engraving",
-"rarity": "アンコモン",
-"rarityClass": "uncommon",
-"weapon": "ダメージ 30〜40%",
-"armor": "回復量 3.5〜4.5%",
-"accessory": "クリティカル率 15〜20%"
+"name":"スモールエメラルド",
+"icon":"images/small_emerald.jpg",
+"type":"ornament",
+"rarity":"コモン",
+"rarityClass":"common",
+"weapon":"攻撃速度 5〜6%",
+"armor":"ダメージ吸収 +1",
+"accessory":"移動速度 10〜15%"
 },
 {
-"name": "毒腺",
-"icon": "images/poison_gland.jpg",
-"type": "engraving",
-"rarity": "アンコモン",
-"rarityClass": "uncommon",
-"weapon": "ライフ吸収 2.0〜3.0%",
-"armor": "移動速度 10〜15%",
-"accessory": "攻撃力 2〜3"
+"name":"マイナーアメジスト",
+"icon":"images/minor_amethyst.jpg",
+"type":"ornament",
+"rarity":"コモン",
+"rarityClass":"common",
+"weapon":"物理ダメージ 20〜30%",
+"armor":"最大HP +10〜30",
+"accessory":"クールダウン短縮 1.0〜2.5%"
 },
 {
-"name": "スパイダーシルク",
-"icon": "images/spider_silk.jpg",
-"type": "engraving",
-"rarity": "アンコモン",
-"rarityClass": "uncommon",
-"weapon": "攻撃速度 30〜40%",
-"armor": "クールダウン短縮 2.5〜4.0%",
-"accessory": "最大HP 30〜60"
+"name":"黒曜石の破片",
+"icon":"images/obsidian_fragment.jpg",
+"type":"ornament",
+"rarity":"アンコモン",
+"rarityClass":"uncommon",
+"weapon":"攻撃力 +3〜6",
+"armor":"ブロック率 3.5〜4.5%",
+"accessory":"攻撃力 10〜15%"
 },
 {
-  "name": "エメラルド",
-  "icon": "images/emerald.jpg",
-  "type": "ornament",
-  "rarity": "レア",
-  "rarityClass":"rare",
-  "weapon": "攻撃速度 7〜9%",
-  "armor": "回避率 15〜20%",
-  "accessory": "移動速度 20〜25%"
+"name":"珊瑚の欠片",
+"icon":"images/coral_fragment.jpg",
+"type":"ornament",
+"rarity":"アンコモン",
+"rarityClass":"uncommon",
+"weapon":"命中毎HP回復 +1〜2",
+"armor":"毎秒HP回復 +1.5〜2.0",
+"accessory":"ライフ吸収 1.5〜2.5%"
+},
+{
+"name":"翡翠石",
+"icon":"images/jade.jpg",
+"type":"ornament",
+"rarity":"アンコモン",
+"rarityClass":"uncommon",
+"weapon":"クリティカル率 20〜25%",
+"armor":"回避率 3.5〜4.5%",
+"accessory":"攻撃速度 5〜6%"
+},
+{
+"name":"アンバージェム",
+"icon":"images/amber_gem.jpg",
+"type":"ornament",
+"rarity":"アンコモン",
+"rarityClass":"uncommon",
+"weapon":"クリティカルダメージ 20〜25%",
+"armor":"最大HP 8〜11%",
+"accessory":"効果範囲 8〜9%"
 }
 ]
-  
