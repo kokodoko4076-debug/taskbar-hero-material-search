@@ -57,6 +57,12 @@ const matchEffect =
   item.type === "engraving"
 );
 
+console.log(
+  item.name,
+  item.type,
+  matchType
+);
+
 return matchName &&
        matchEffect &&
        matchType;
