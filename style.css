@@ -117,9 +117,9 @@ background:#ea580c;
 }
 
 .item-icon{
-    width:40px;
-    height:40px;
-    object-fit:contain;
+    width:56px;
+    height:56px;
+    border-radius:8px;
 }
 .rarity-badge{
     display:inline-block;
