@@ -264,3 +264,16 @@ font-weight:bold;
     font-size:14px;
     margin:20px 0 10px;
 }
+.effect-section h3{
+    color:#94a3b8;
+    font-size:14px;
+    margin:16px 0 8px;
+    font-weight:600;
+}
+
+.effect-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:10px;
+    margin-bottom:12px;
+}
