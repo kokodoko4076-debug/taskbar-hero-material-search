@@ -121,8 +121,8 @@ margin-top:15px;
 }
 
 .item-icon{
-    width:56px;
-    height:56px;
+    width:48px;
+    height:48px;
     border-radius:8px;
 }
 .rarity-badge{
@@ -187,4 +187,5 @@ margin-top:15px;
 .item-effect{
     margin:0;
     color:#e2e8f0;
+    font-size:14px;
 }
