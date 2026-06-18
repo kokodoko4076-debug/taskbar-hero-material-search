@@ -84,11 +84,12 @@ div.className =
   item.rarityClass;
 
 div.innerHTML =
-  "<h3>" + item.name + "</h3>" +
+  "<div class='item-header'>" +
+    "<img class='item-icon' src='" + item.icon + "'>" +
+    "<h3>" + item.name + "</h3>" +
+  "</div>" +
   "<p>レアリティ: " + item.rarity + "</p>" +
   "<p>" + (item[currentType] || "") + "</p>";
-
-results.appendChild(div);
 
 
 });
