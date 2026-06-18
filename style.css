@@ -109,3 +109,15 @@ background:#ea580c;
 .card.beyond{
     border-left:6px solid #db2777;
 }
+
+.item-header{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.item-icon{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
