@@ -1,9 +1,18 @@
 [
   {
-    "name": "異界の毒",
-    "rarity": "ディヴァイン",
-    "weapon": "攻撃速度 20～25%",
-    "armor": "最大HP 25～30%",
-    "accessory": "クールダウン短縮 13～14.5%"
+    "name": "スライムゼリー",
+    "rarity": "コモン",
+    "rarityClass": "common",
+    "weapon": "攻撃速度 5〜6%",
+    "armor": "最大HP 10〜30",
+    "accessory": "クリティカル率 10〜15%"
+  },
+  {
+    "name": "スケルトンの骨",
+    "rarity": "コモン",
+    "rarityClass": "common",
+    "weapon": "クリティカル率 15〜20%",
+    "armor": "防御力 25〜50",
+    "accessory": "命中率回復量 +1"
   }
 ]
