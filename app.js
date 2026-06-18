@@ -76,44 +76,46 @@ results.innerHTML = "";
 
 filtered.forEach(item => {
 
-const div = document.createElement("div");
+const row = document.createElement("tr");
 
-div.className =
-  "card " +
-  item.rarityClass;
+row.innerHTML =
 
-div.innerHTML =
-  "<div class='item-header'>" +
+"<td>" +
+"<img class='table-icon' src='" +
+item.icon +
+"'>" +
+item.name +
+"</td>" +
 
-    "<img class='item-icon' src='" +
-    item.icon +
-    "'>" +
+"<td class='" +
+item.rarityClass +
+"'>" +
+item.rarity +
+"</td>" +
 
-    "<div class='title-area'>" +
+"<td>" +
+(item.type === "engraving"
+? "刻印"
+: "装飾") +
+"</td>" +
 
-      "<div class='title-row'>" +
+"<td>" +
+(
+currentType === "weapon"
+? "武器"
+: currentType === "armor"
+? "防具"
+: "アクセ"
+) +
+"</td>" +
 
-        "<h3>" +
-        item.name +
-        "</h3>" +
+"<td>" +
+(item[currentType] || "") +
+"</td>";
 
-        "<span class='rarity-badge " +
-        item.rarityClass +
-        "'>" +
-        item.rarity +
-        "</span>" +
+results.appendChild(row);
 
-      "</div>" +
-
-      "<p class='item-effect'>" +
-      (item[currentType] || "") +
-      "</p>" +
-
-    "</div>" +
-
-  "</div>";
-
-results.appendChild(div);
+});
 
 });
 
