@@ -30,7 +30,8 @@ main{
 .card{
     background:#334155;
     margin-top:12px;
-    padding:12px;
+    padding:10px 14px;
+    min-height:auto;
     border-radius:10px;
 
     box-shadow:
@@ -115,7 +116,7 @@ margin-top:15px;
 .item-header{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:12px;
 }
 
 .item-icon{
