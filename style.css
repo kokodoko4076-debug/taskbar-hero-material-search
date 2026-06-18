@@ -76,8 +76,10 @@ margin-top:15px;
 }
 
 .effect-btn{
-    padding:8px;
-    min-height:40px;
+    background:#1e293b;
+    color:white;
+    border:1px solid #334155;
+    border-radius:8px;
 }
 
 .effect-btn.active{
