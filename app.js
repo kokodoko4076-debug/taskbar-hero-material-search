@@ -3,10 +3,10 @@ let materials = [];
 fetch("materials.json")
 .then(response => response.json())
 .then(data => {
-materials = data;
-render();
+    materials = data;
+    console.log("読み込み件数", materials.length);
+    render();
 });
-
 let currentType = "weapon";
 
 const searchInput = document.getElementById("searchInput");
