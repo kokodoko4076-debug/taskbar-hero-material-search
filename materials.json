@@ -1,7 +1,7 @@
 [
 {
 "name": "スライムゼリー",
-"type": "engraving"
+"type": "engraving",
 "rarity": "コモン",
 "rarityClass": "common",
 "weapon": "攻撃速度 5〜6%",
@@ -10,7 +10,7 @@
 },
 {
 "name": "スケルトンの骨",
-"type": "engraving"
+"type": "engraving",
 "rarity": "コモン",
 "rarityClass": "common",
 "weapon": "クリティカル率 15〜20%",
@@ -19,7 +19,7 @@
 },
 {
 "name": "ゴブリンの皮",
-"type": "engraving"
+"type": "engraving",
 "rarity": "コモン",
 "rarityClass": "common",
 "weapon": "火炎ダメージ 20〜30%",
@@ -28,7 +28,7 @@
 },
 {
 "name": "癒しの葉",
-"type": "engraving"
+"type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
 "weapon": "ダメージ 30〜40%",
@@ -37,7 +37,7 @@
 },
 {
 "name": "毒腺",
-"type": "engraving"
+"type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
 "weapon": "ライフ吸収 2.0〜3.0%",
@@ -46,7 +46,7 @@
 },
 {
 "name": "スパイダーシルク",
-"type": "engraving"
+"type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
 "weapon": "攻撃速度 30〜40%",
