@@ -79,7 +79,9 @@ filtered.forEach(item => {
 
 const div = document.createElement("div");
 
-div.className = "card";
+div.className =
+  "card " +
+  item.rarityClass;
 
 div.innerHTML =
   "<h3>" + item.name + "</h3>" +
