@@ -1,18 +1,50 @@
 [
-  {
-    "name": "スライムゼリー",
-    "rarity": "コモン",
-    "rarityClass": "common",
-    "weapon": "攻撃速度 5〜6%",
-    "armor": "最大HP 10〜30",
-    "accessory": "クリティカル率 10〜15%"
-  },
-  {
-    "name": "スケルトンの骨",
-    "rarity": "コモン",
-    "rarityClass": "common",
-    "weapon": "クリティカル率 15〜20%",
-    "armor": "防御力 25〜50",
-    "accessory": "命中率回復量 +1"
-  }
+{
+"name": "スライムゼリー",
+"rarity": "コモン",
+"rarityClass": "common",
+"weapon": "攻撃速度 5〜6%",
+"armor": "最大HP 10〜30",
+"accessory": "クリティカル率 10〜15%"
+},
+{
+"name": "スケルトンの骨",
+"rarity": "コモン",
+"rarityClass": "common",
+"weapon": "クリティカル率 15〜20%",
+"armor": "防御力 25〜50",
+"accessory": "命中率回復量 +1"
+},
+{
+"name": "ゴブリンの皮",
+"rarity": "コモン",
+"rarityClass": "common",
+"weapon": "火炎ダメージ 20〜30%",
+"armor": "火炎耐性 5〜10%",
+"accessory": "攻撃速度 4〜5%"
+},
+{
+"name": "癒しの葉",
+"rarity": "アンコモン",
+"rarityClass": "uncommon",
+"weapon": "ダメージ 30〜40%",
+"armor": "回復量 3.5〜4.5%",
+"accessory": "クリティカル率 15〜20%"
+},
+{
+"name": "毒腺",
+"rarity": "アンコモン",
+"rarityClass": "uncommon",
+"weapon": "ライフ吸収 2.0〜3.0%",
+"armor": "移動速度 10〜15%",
+"accessory": "攻撃力 2〜3"
+},
+{
+"name": "スパイダーシルク",
+"rarity": "アンコモン",
+"rarityClass": "uncommon",
+"weapon": "攻撃速度 30〜40%",
+"armor": "クールダウン短縮 2.5〜4.0%",
+"accessory": "最大HP 30〜60"
+}
 ]
