@@ -81,3 +81,31 @@ cursor:pointer;
 .effect-btn.active{
 background:#ea580c;
 }
+
+.card.common{
+    border-left:6px solid #808080;
+}
+
+.card.uncommon{
+    border-left:6px solid #22c55e;
+}
+
+.card.rare{
+    border-left:6px solid #3b82f6;
+}
+
+.card.legendary{
+    border-left:6px solid #d4af37;
+}
+
+.card.immortal{
+    border-left:6px solid #ef4444;
+}
+
+.card.arcana{
+    border-left:6px solid #a855f7;
+}
+
+.card.beyond{
+    border-left:6px solid #db2777;
+}
