@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskbar Hero 素材検索</title>
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+<body>
+
+<header>
+    <h1>Taskbar Hero 素材検索</h1>
+</header>
+
+<main>
+
+```
 <div class="tabs">
     <button class="tab active" data-type="weapon">武器</button>
     <button class="tab" data-type="armor">防具</button>
@@ -5,10 +27,9 @@
 </div>
 
 <input
-type="text"
-id="searchInput"
-placeholder="素材名検索..."
-
+    type="text"
+    id="searchInput"
+    placeholder="素材名検索..."
 >
 
 <select id="effectSelect">
@@ -20,3 +41,11 @@ placeholder="素材名検索..."
 </select>
 
 <div id="results"></div>
+```
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+</html>
