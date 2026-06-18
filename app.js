@@ -13,7 +13,10 @@ fetch("materials.json")
 let currentType = "weapon";
 
 const searchInput = document.getElementById("searchInput");
-const effectSelect = document.getElementById("effectSelect");
+let selectedEffect = "";
+
+const effectButtons =
+document.querySelectorAll(".effect-btn");
 const results = document.getElementById("results");
 const tabs = document.querySelectorAll(".tab");
 
@@ -31,7 +34,7 @@ console.log(
 );
 
 const keyword = searchInput.value.toLowerCase();
-const effect = effectSelect.value;
+const effect = selectedEffect;
 
 const filtered = materials.filter(item => {
 
@@ -111,7 +114,24 @@ render();
 });
 
 searchInput.addEventListener("input", render);
-effectSelect.addEventListener("change", render);
+effectButtons.forEach(btn => {
+
+btn.addEventListener("click", () => {
+
+effectButtons.forEach(b =>
+b.classList.remove("active")
+);
+
+btn.classList.add("active");
+
+selectedEffect =
+btn.dataset.effect;
+
+render();
+
+});
+
+});
 
 ornamentCheck.addEventListener(
   "change",
