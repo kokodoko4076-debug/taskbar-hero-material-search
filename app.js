@@ -153,6 +153,10 @@ btn.classList.add("active");
 selectedEffect =
 btn.dataset.effect;
 
+document.getElementById("matchCount")
+.textContent =
+filtered.length + " MATCHES";
+
 render();
 
 });
