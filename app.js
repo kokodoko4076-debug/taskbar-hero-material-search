@@ -16,6 +16,8 @@ const tabs = document.querySelectorAll(".tab");
 
 function render() {
 
+console.log(materials);
+
 const keyword = searchInput.value.toLowerCase();
 const effect = effectSelect.value;
 
