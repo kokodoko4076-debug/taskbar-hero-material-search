@@ -76,10 +76,14 @@ margin-top:15px;
 }
 
 .effect-btn{
-    background:#1e293b;
+    background:#334155;
     color:white;
-    border:1px solid #334155;
+    border:1px solid #475569;
     border-radius:8px;
+}
+
+.effect-btn:hover{
+    background:#475569;
 }
 
 .effect-btn.active{
