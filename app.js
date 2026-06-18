@@ -87,7 +87,11 @@ div.innerHTML =
     "<img class='item-icon' src='" + item.icon + "'>" +
     "<h3>" + item.name + "</h3>" +
   "</div>" +
-  "<p>レアリティ: " + item.rarity + "</p>" +
+ "<p><span class='rarity-badge " +
+item.rarityClass +
+"'>" +
+item.rarity +
+"</span></p>" +
   "<p>" + (item[currentType] || "") + "</p>";
 
 results.appendChild(div);
