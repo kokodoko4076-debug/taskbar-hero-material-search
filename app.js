@@ -117,8 +117,6 @@ results.appendChild(row);
 
 });
 
-});
-
 }
 
 tabs.forEach(tab => {
