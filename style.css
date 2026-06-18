@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+    background:#1e293b;
+    color:white;
+}
+
+header{
+    background:#0f172a;
+    padding:16px;
+    text-align:center;
+}
+
+h1{
+    margin:0;
+}
+
+main{
+    padding:16px;
+}
+
+#searchInput{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border-radius:8px;
+    border:none;
+}
+
+.card{
+    background:#334155;
+    margin-top:12px;
+    padding:12px;
+    border-radius:10px;
+}
