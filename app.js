@@ -25,7 +25,10 @@ document.getElementById("engravingCheck");
 
 function render() {
 
-console.log(materials);
+console.log(
+  "ornament:", ornamentCheck.checked,
+  "engraving:", engravingCheck.checked
+);
 
 const keyword = searchInput.value.toLowerCase();
 const effect = effectSelect.value;
