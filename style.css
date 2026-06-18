@@ -190,3 +190,67 @@ margin-top:15px;
     color:#e2e8f0;
     font-size:14px;
 }
+.result-table{
+width:100%;
+border-collapse:collapse;
+background:#0f172a;
+margin-top:20px;
+}
+
+.result-table th{
+background:#1e293b;
+padding:12px;
+text-align:left;
+font-size:14px;
+}
+
+.result-table td{
+padding:12px;
+border-top:1px solid #334155;
+}
+
+.result-table tr:hover{
+background:#1e293b;
+}
+
+.table-icon{
+width:32px;
+height:32px;
+vertical-align:middle;
+margin-right:10px;
+}
+
+.result-table .common{
+color:#d1d5db;
+font-weight:bold;
+}
+
+.result-table .uncommon{
+color:#22c55e;
+font-weight:bold;
+}
+
+.result-table .rare{
+color:#3b82f6;
+font-weight:bold;
+}
+
+.result-table .legendary{
+color:#eab308;
+font-weight:bold;
+}
+
+.result-table .immortal{
+color:#06b6d4;
+font-weight:bold;
+}
+
+.result-table .arcana{
+color:#d946ef;
+font-weight:bold;
+}
+
+.result-table .beyond{
+color:#ef4444;
+font-weight:bold;
+}
