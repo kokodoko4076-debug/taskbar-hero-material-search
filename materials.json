@@ -57,6 +57,7 @@
   "name": "エメラルド",
   "type": "ornament",
   "rarity": "レア",
+  "rarityClass":"rare",
   "weapon": "攻撃速度 7〜9%",
   "armor": "回避率 15〜20%",
   "accessory": "移動速度 20〜25%"
