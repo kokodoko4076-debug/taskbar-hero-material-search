@@ -4,8 +4,11 @@ fetch("materials.json")
 .then(response => response.json())
 .then(data => {
     materials = data;
-    console.log("読み込み件数", materials.length);
+
+    alert("件数：" + materials.length);
+
     render();
+});
 });
 let currentType = "weapon";
 
