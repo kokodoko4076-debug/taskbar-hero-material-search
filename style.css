@@ -308,3 +308,16 @@ font-weight:bold;
 .result-table th{
     background:#111827;
 }
+#resetBtn{
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+#resetBtn:hover{
+    background:#b91c1c;
+}
