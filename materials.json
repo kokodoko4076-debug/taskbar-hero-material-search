@@ -88,5 +88,175 @@
 "weapon":"クリティカルダメージ 20〜25%",
 "armor":"最大HP 8〜11%",
 "accessory":"効果範囲 8〜9%"
-}
+},
+ {
+"name":"ルビー",
+"icon":"images/ruby.jpg",
+"type":"ornament",
+"rarity":"レア",
+"rarityClass":"rare",
+"weapon":"火炎ダメージ 30〜40%",
+"armor":"火炎耐性 15〜20%",
+"accessory":"攻撃力 +3〜6"
+},
+{
+"name":"サファイア",
+"icon":"images/sapphire.jpg",
+"type":"ornament",
+"rarity":"レア",
+"rarityClass":"rare",
+"weapon":"冷気ダメージ 30〜40%",
+"armor":"冷気耐性 15〜20%",
+"accessory":"クリティカル率 20〜25%"
+},
+{
+"name":"トパーズ",
+"icon":"images/topaz.jpg",
+"type":"ornament",
+"rarity":"レア",
+"rarityClass":"rare",
+"weapon":"雷ダメージ 30〜40%",
+"armor":"雷耐性 15〜20%",
+"accessory":"詠唱速度 12〜14%"
+},
+{
+"name":"エメラルド",
+"icon":"images/emerald.jpg",
+"type":"ornament",
+"rarity":"レア",
+"rarityClass":"rare",
+"weapon":"攻撃速度 7〜9%",
+"armor":"カオス耐性 15〜20%",
+"accessory":"移動速度 20〜25%"
+},
+{
+"name":"アメジスト",
+"icon":"images/amethyst.jpg",
+"type":"ornament",
+"rarity":"レア",
+"rarityClass":"rare",
+"weapon":"物理ダメージ 30〜40%",
+"armor":"最大HP 60〜90",
+"accessory":"クールダウン短縮 4.0〜5.5%"
+},
+{
+"name":"クリスタルクォーツ",
+"icon":"images/crystal_quartz.jpg",
+"type":"ornament",
+"rarity":"レジェンダリー",
+"rarityClass":"legendary",
+"weapon":"攻撃力 +10〜15",
+"armor":"毎秒HP回復 2.5〜3.0",
+"accessory":"クリティカルダメージ 25〜30%"
+},
+{
+"name":"真珠",
+"icon":"images/pearl.jpg",
+"type":"ornament",
+"rarity":"レジェンダリー",
+"rarityClass":"legendary",
+"weapon":"クールダウン短縮 7.0〜8.5%",
+"armor":"ダメージ軽減 4.0〜5.5%",
+"accessory":"クリティカル率 25〜30%"
+},
+{
+"name":"ターコイズ",
+"icon":"images/turquoise.jpg",
+"type":"ornament",
+"rarity":"レジェンダリー",
+"rarityClass":"legendary",
+"weapon":"クリティカル率 30〜35%",
+"armor":"クールダウン短縮 5.5〜7.0%",
+"accessory":"最大HP 90〜120"
+},
+{
+"name":"ガーネット",
+"icon":"images/garnet.jpg",
+"type":"ornament",
+"rarity":"レジェンダリー",
+"rarityClass":"legendary",
+"weapon":"クリティカルダメージ 30〜40%",
+"armor":"防御力 25〜30%",
+"accessory":"攻撃速度 7〜9%"
+},
+{
+"name":"ダイヤモンド",
+"icon":"images/diamond.jpg",
+"type":"ornament",
+"rarity":"イモータル",
+"rarityClass":"immortal",
+"weapon":"攻撃力 +15〜30",
+"armor":"全属性耐性 13〜15%",
+"accessory":"効果範囲 12〜14%"
+},
+{
+"name":"オパール",
+"icon":"images/opal.jpg",
+"type":"ornament",
+"rarity":"イモータル",
+"rarityClass":"immortal",
+"weapon":"攻撃速度 11〜13%",
+"armor":"最大HP 17〜20%",
+"accessory":"毎秒HP回復 3.0〜4.0"
+},
+{
+"name":"ラピスラズリ",
+"icon":"images/lapis_lazuli.jpg",
+"type":"ornament",
+"rarity":"イモータル",
+"rarityClass":"immortal",
+"weapon":"クリティカル率 35〜40%",
+"armor":"回避率 7.0〜9.0%",
+"accessory":"移動速度 30〜35%"
+},
+{
+"name":"ブラックパール",
+"icon":"images/black_pearl.jpg",
+"type":"ornament",
+"rarity":"イモータル",
+"rarityClass":"immortal",
+"weapon":"効果範囲 14〜17%",
+"armor":"ブロック率 7.0〜9.0%",
+"accessory":"詠唱速度 16〜20%"
+},
+{
+"name":"アーケインクリスタル",
+"icon":"images/arcane_crystal.jpg",
+"type":"ornament",
+"rarity":"アルカナ",
+"rarityClass":"arcana",
+"weapon":"詠唱速度 25〜30%",
+"armor":"クールダウン短縮 8.5〜10.0%",
+"accessory":"クリティカルダメージ 40〜50%"
+},
+{
+"name":"ミスティックトパーズ",
+"icon":"images/mystic_topaz.jpg",
+"type":"ornament",
+"rarity":"アルカナ",
+"rarityClass":"arcana",
+"weapon":"雷ダメージ 80〜100%",
+"armor":"雷耐性 30〜35%",
+"accessory":"詠唱速度 20〜25%"
+},
+{
+"name":"エンチャントルビー",
+"icon":"images/enchanted_ruby.jpg",
+"type":"ornament",
+"rarity":"アルカナ",
+"rarityClass":"arcana",
+"weapon":"火炎ダメージ 80〜100%",
+"armor":"火炎耐性 30〜35%",
+"accessory":"攻撃力 +15〜30"
+},
+{
+"name":"星光のサファイア",
+"icon":"images/starlight_sapphire.jpg",
+"type":"ornament",
+"rarity":"アルカナ",
+"rarityClass":"arcana",
+"weapon":"冷気ダメージ 80〜100%",
+"armor":"冷気耐性 30〜35%",
+"accessory":"クリティカル率 35〜40%"
+},
 ]
