@@ -33,7 +33,7 @@ function render() {
 const keyword = searchInput.value.toLowerCase();
 const effect = effectSelect.value;
 
-```
+
 const filtered = materials.filter(item => {
 
     const matchName =
@@ -62,13 +62,13 @@ filtered.forEach(item => {
 
     results.appendChild(div);
 });
-```
+
 
 }
 
 tabs.forEach(tab => {
 
-```
+
 tab.addEventListener("click", () => {
 
     tabs.forEach(t =>
@@ -81,7 +81,7 @@ tab.addEventListener("click", () => {
 
     render();
 });
-```
+
 
 });
 
