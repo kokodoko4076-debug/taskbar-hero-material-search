@@ -76,7 +76,6 @@ results.innerHTML = "";
 
 filtered.forEach(item => {
 
-
 const div = document.createElement("div");
 
 div.className =
@@ -91,6 +90,7 @@ div.innerHTML =
   "<p>レアリティ: " + item.rarity + "</p>" +
   "<p>" + (item[currentType] || "") + "</p>";
 
+results.appendChild(div);
 
 });
 
