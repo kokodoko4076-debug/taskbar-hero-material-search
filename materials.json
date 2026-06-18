@@ -11,7 +11,7 @@
 },
 {
 "name": "スケルトンの骨",
-"icon": "skeleton_bone.jpg",
+"icon": "images/skeleton_bone.jpg",
 "type": "engraving",
 "rarity": "コモン",
 "rarityClass": "common",
@@ -21,7 +21,7 @@
 },
 {
 "name": "ゴブリンの皮",
-"icon": "goblin_skin.jpg",
+"icon": "images/goblin_skin.jpg",
 "type": "engraving",
 "rarity": "コモン",
 "rarityClass": "common",
@@ -31,7 +31,7 @@
 },
 {
 "name": "癒しの葉",
-"icon": "healing_leaf.jpg",
+"icon": "images/healing_leaf.jpg",
 "type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
@@ -41,7 +41,7 @@
 },
 {
 "name": "毒腺",
-"icon": "poison_gland.jpg",
+"icon": "images/poison_gland.jpg",
 "type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
@@ -51,7 +51,7 @@
 },
 {
 "name": "スパイダーシルク",
-"icon": "spider_silk.jpg",
+"icon": "images/spider_silk.jpg",
 "type": "engraving",
 "rarity": "アンコモン",
 "rarityClass": "uncommon",
@@ -61,7 +61,7 @@
 },
 {
   "name": "エメラルド",
-  "icon": "emerald.jpg",
+  "icon": "images/emerald.jpg",
   "type": "ornament",
   "rarity": "レア",
   "rarityClass":"rare",
